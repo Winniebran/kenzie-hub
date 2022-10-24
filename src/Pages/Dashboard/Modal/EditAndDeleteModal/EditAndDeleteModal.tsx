@@ -32,20 +32,20 @@ export const EditAndDeleteTechModal = () => {
       </div>
 
       <StyledForm
-        onSubmit={handleSubmit((data) => editTechsModal(data, currentTech.id))}
+        onSubmit={handleSubmit((data) => editTechsModal(data, currentTech?.id as string))}
       >
         <div>
           <label htmlFor="title">Nome do projeto</label>
           <input
             type="text"
             id="title"
-            value={currentTech.title}
+            value={currentTech?.title}
             disabled
           />
         </div>
         <div>
           <StyledSelect
-            defaultValue={currentTech.status}
+            defaultValue={currentTech?.status}
             {...register("status")}
           >
             <optgroup label="Selecione o novo status">
@@ -60,7 +60,7 @@ export const EditAndDeleteTechModal = () => {
           <button
             className="deleteButton"
             type="button"
-            onClick={() => deleteTechsModal(currentTech.id)}
+            onClick={() => deleteTechsModal(currentTech?.id as string)}
           >
             Excluir
           </button>
