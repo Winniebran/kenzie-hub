@@ -2,16 +2,34 @@
 
 Projeto: https://kenzie-8qndmq36e-winniebran.vercel.app/;
 
-Status: em refatoração;
+## Descrição: 
+O Kenzie Hub é um projeto que oferece uma plataforma para gerenciamento de perfis de estudantes da Kenzie Academy. As principais funcionalidades do projeto incluem:
 
-Descrição: Página utilizando React.js (useState, useEffect, Hook Form, Yup, Router Dom, useContext), com consumo de API (com axios e localStorage), aplicação de toastfy, Styled Components e responsividade, onde:
+- Cadastro de usuários: Os usuários podem se cadastrar na plataforma fornecendo as informações necessárias;
 
-    1. É possível realizar o cadastro;
-    2. É possível realizar o login;
-    3. É possível visualizar mensagens de erro caso não preencha adequadamente algum campo;
-    4. É possível visualizar mensagens de sucesso e erro via toastify ao realizar o login/cadastro;
-    5. Não é possível acessar página de dashboard sem um token válido;
-    6. Não é possível acessar página de login, nem cadastro possuindo token válido;
-    7. Ao final do cadastro bem sucedido, é redirecionado para a página de login;
-    8. É possível visualizar seu nome e módulo de estudo ao acessar a dashboard;
-    9. É possível adicionar, editar e deletar tecnologias, por meio de um modal.
+- Login de usuários: Os usuários podem fazer login na plataforma usando suas credenciais cadastradas;
+
+- Validação de campos: Caso algum campo não seja preenchido adequadamente durante o cadastro ou login, mensagens de erro são exibidas para orientar o usuário;
+
+- Feedback interativo: Mensagens de sucesso ou erro são exibidas por meio do Toastify para fornecer informações claras sobre ações realizadas, como login ou cadastro;
+
+- Proteção de rotas: A página de dashboard só pode ser acessada com um token válido, garantindo a segurança das informações do usuário;
+
+- Restrição de acesso: Usuários com token válido não podem acessar a página de login ou cadastro novamente, direcionando-os diretamente para a dashboard;
+
+- Redirecionamento após cadastro: Após um cadastro bem-sucedido, os usuários são redirecionados para a página de login para iniciar a sessão;
+
+- Exibição de informações: Ao acessar a dashboard, os usuários podem visualizar seu nome e módulo de estudo, fornecendo uma visão rápida de suas informações pessoais;
+
+- Gerenciamento de tecnologias: Os usuários têm a capacidade de adicionar, editar e excluir tecnologias por meio de um modal, permitindo que eles atualizem suas habilidades técnicas;
+
+Em resumo, o Kenzie Hub é um projeto voltado para facilitar a gestão de perfis de estudantes da Kenzie Academy, proporcionando recursos de cadastro, login, proteção de rotas, exibição de informações pessoais e gerenciamento de tecnologias. Com essas funcionalidades, o Kenzie Hub busca fornecer uma experiência integrada e eficiente para os estudantes gerenciarem suas informações e habilidades.
+
+## Tecnologias utilizadas:
+- React.js;
+- Hook Form; 
+- Yup;
+- Axios (consumo de API);
+- Toastfy;
+- Styled Components;
+- Página com responsividade;
