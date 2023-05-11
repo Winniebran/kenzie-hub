@@ -26,7 +26,8 @@ O Kenzie Hub é um projeto que oferece uma plataforma para gerenciamento de perf
 Em resumo, o Kenzie Hub é um projeto voltado para facilitar a gestão de perfis de estudantes da Kenzie Academy, proporcionando recursos de cadastro, login, proteção de rotas, exibição de informações pessoais e gerenciamento de tecnologias. Com essas funcionalidades, o Kenzie Hub busca fornecer uma experiência integrada e eficiente para os estudantes gerenciarem suas informações e habilidades.
 
 ## Tecnologias utilizadas:
-- React.js;
+- React;
+- Typescript;
 - Hook Form; 
 - Yup;
 - Axios (consumo de API);
