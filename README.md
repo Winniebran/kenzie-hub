@@ -3,7 +3,7 @@
 Projeto: https://kenzie-8qndmq36e-winniebran.vercel.app/;
 
 ## Descrição: 
-O Kenzie Hub é um projeto que oferece uma plataforma para gerenciamento de perfis de estudantes da Kenzie Academy. As principais funcionalidades do projeto incluem:
+O Kenzie Hub é um projeto que oferece uma plataforma para gerenciamento de tecnologias de estudantes da Kenzie Academy. As principais funcionalidades do projeto incluem:
 
 - Cadastro de usuários: Os usuários podem se cadastrar na plataforma fornecendo as informações necessárias;
 
@@ -23,7 +23,7 @@ O Kenzie Hub é um projeto que oferece uma plataforma para gerenciamento de perf
 
 - Gerenciamento de tecnologias: Os usuários têm a capacidade de adicionar, editar e excluir tecnologias por meio de um modal, permitindo que eles atualizem suas habilidades técnicas;
 
-Em resumo, o Kenzie Hub é um projeto voltado para facilitar a gestão de perfis de estudantes da Kenzie Academy, proporcionando recursos de cadastro, login, proteção de rotas, exibição de informações pessoais e gerenciamento de tecnologias. Com essas funcionalidades, o Kenzie Hub busca fornecer uma experiência integrada e eficiente para os estudantes gerenciarem suas informações e habilidades.
+Com essas funcionalidades, o Kenzie Hub busca fornecer uma experiência integrada e eficiente para os estudantes gerenciarem suas tecnologias e habilidades.
 
 ## Tecnologias utilizadas:
 - React;
